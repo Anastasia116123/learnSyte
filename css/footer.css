@@ -1,0 +1,33 @@
+.footer{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#213B7E; 
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  width: 1400px;
+  height: 60px;
+  line-height: 23px;
+  margin: auto;
+  bottom: auto;
+}
+
+@media screen and (max-width: 1400px){
+  .footer{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .footer{
+  font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .footer{
+  width: 100%;
+  }
+}

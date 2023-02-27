@@ -1,0 +1,88 @@
+.main{
+  margin-left: 256px;
+  padding-left: 200px;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 700;
+  margin:25px 0 50px 0;
+}
+
+.students_card-img{
+  width: 200px;
+  height: 270px;
+  background-color: #86C6F4;
+  position: relative;
+}
+
+.students{
+  display: flex;
+  /* justify-content:space-between; */
+  gap: 50px;
+}
+
+.span{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px 0 0 30px
+}
+
+.learn{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding-left: 10px;
+  color: #FFFFFF;
+  position: absolute;
+  text-transform: uppercase;
+  left: 822px;
+  top: 176px;
+  background: #3AA828;
+  border-radius: 20px;
+  width: 94px;
+  height: 24px;
+}
+
+@media screen and (max-width: 1700px) {
+  .main{
+    margin: 0;
+  }
+  .learn{
+  left: 570px;
+  }
+}
+
+
+@media screen and (max-width: 1500px) {
+  .main{
+    padding: 20px 0 0 0;
+  }
+  .students{
+    flex-wrap: wrap;
+  }
+  .learn{
+    left: 370px;
+    top: 200px;
+  }
+}
+@media screen and (max-width: 470px){
+  .learn {
+      left: 350px;
+      top: 230px;
+  }
+}
+
+
+@media screen and (max-width: 442px){
+  .learn {
+    left: 110px;
+    top: 570px;
+}
+}
+
+
+
