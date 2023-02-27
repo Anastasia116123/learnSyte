@@ -1,0 +1,51 @@
+.main{
+  margin-left: 256px;
+  padding-left: 265px;
+}
+.title{
+  margin-top: 25px;
+}
+
+.main-item{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+}
+.video{
+  width: 820px;
+  height: 550px;
+}
+
+@media screen and (max-width: 1700px) {
+  .main{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .main{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .img{
+    width: 500px;
+    height: 350px;
+  }
+  .main-item{
+    font-size: 20px;
+  }
+  .title{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .img{
+    width: 350px;
+    height: 250px;
+  }
+}
